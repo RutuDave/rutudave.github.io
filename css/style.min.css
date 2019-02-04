@@ -1,13 +1,77 @@
-#container
-{
-	border: 1px solid black;
-	height: 200px; 
-	width: 400px;
-	margin-left: 500px;
-	margin-top: 100px;
+body 
+{ 
+  font-size: 17px;
+  background-image: url("/home/sooryen/Workspace/Github/img/pexels-photo-248797.jpeg");
+ 
 }
-body
+
+.container 
 {
-	background-image: url("../img/pexels-photo-248797.jpeg");
-	
+  position: relative;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+.container .content 
+{
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  margin-top: 200px;
+  margin-left:40%;
+  height: 200px;
+  width: 500px;
+  padding: 20px;
+}
+
+.fa {
+  padding: 10px;
+  margin: 20px;
+  font-size: 40px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px; 
+}
+.fa-facebook:hover 
+{
+	color: blue;
+}
+.fa-facebook {
+  color: white;
+}
+
+.fa-snapchat-ghost:hover 
+{
+	color: yellow;
+}
+.fa-snapchat-ghost 
+{
+  color: white;
+}
+
+.fa-linkedin:hover 
+{
+	color: lightblue;
+}
+.fa-linkedin {
+  
+  color: white;
+}
+
+.fa-twitter:hover 
+{
+	color: blue;
+}
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram:hover 
+{
+	color: purple;
+}
+.fa-instagram {
+  
+  color: white;
 }
