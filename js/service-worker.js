@@ -6,8 +6,8 @@ const PRECACHE_URLS = [
   'index.html',
   './', // Alias for index.html
   'style.min.css',
-  '../../css/style.main.css',
-  './js/main.min.js'
+  '.css/style.main.css',
+  '.js/main.min.js'
 ];
 
 self.addEventListener('install', event => {
