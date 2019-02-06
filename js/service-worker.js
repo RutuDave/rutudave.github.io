@@ -3,11 +3,7 @@ const PRECACHE = 'precache-v1';
 const RUNTIME = 'runtime';
 
 const PRECACHE_URLS = [
-  'index.html',
-  './', // Alias for index.html
-  'style.min.css',
-  '.css/style.main.css',
-  '.js/main.min.js'
+  'index.html'
 ];
 
 self.addEventListener('install', event => {
