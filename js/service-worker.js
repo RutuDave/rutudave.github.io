@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) 
 {
-	navigator.serviceWorker.register('/service-worker.js').then(function(response) 
+	navigator.serviceWorker.register('js/service-worker.js').then(function(response) 
 	{
 	    // Service worker registration done
 	    console.log('Registration Successful', response);
