@@ -16,6 +16,7 @@ self.addEventListener('install', event => {
   );
 });
 
+console.log(PRECACHE_URLS);
 
 self.addEventListener('activate', event => {
   const currentCaches = [PRECACHE, RUNTIME];
@@ -39,13 +40,12 @@ self.addEventListener('fetch', event => {
         if (cachedResponse) {
           return cachedResponse;
         }
-        console.log("cachedResponse is: " + cachedResponse);
 
         return caches.open(RUNTIME).then(cache => {
           return fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
             return cache.put(event.request, response.clone()).then(() => {
-               console.log("Response is: " + response);
+          
               return response;
             });
           });
