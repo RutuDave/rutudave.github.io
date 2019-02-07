@@ -1,7 +1,7 @@
-var PRECACHE = 'precache-v1';
-var RUNTIME = 'runtime';
+const PRECACHE = 'precache-v1';
+const RUNTIME = 'runtime';
 
-var PRECACHE_URLS = [
+const PRECACHE_URLS = [
   'index.html',
   'css/style.min.css',
   'js/main.min.js'
